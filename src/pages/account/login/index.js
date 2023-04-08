@@ -61,7 +61,7 @@ export default function Login() {
               <button type="button" className="btn btn-primary btn-lg w-50" onClick={onLoginClickHandler}>Login</button>
               <a style={{ cursor: "pointer" }}>Forgot password?</a>
             </div>
-            <p className="small fw-bold mt-2 pt-1 mb-3">Don't have an account? <a
+            <p className="small fw-bold mt-2 pt-1 mb-3">Don&apos;t have an account? <a
               className="link-danger" onClick={onClickRegisterHandler} style={{ cursor: "pointer" }}>Register</a></p>
           </div>
         </div>

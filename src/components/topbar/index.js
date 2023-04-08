@@ -48,7 +48,7 @@ export default function TopBar() {
               </div>
               <div>
                 <div className="small text-gray-500">December 2, 2019</div>
-                Spending Alert: We've noticed unusually high spending for your account.
+                Spending Alert: We&apos;ve noticed unusually high spending for your account.
               </div>
             </a>
             <a className="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react"
 
 export default function Sidebar() {
@@ -9,36 +10,36 @@ export default function Sidebar() {
 
   return (
     <ul className={`navbar-nav bg-gradient-primary sidebar sidebar-dark accordion ${toggled}`} id="accordionSidebar">
-      <a className="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+      <Link className="sidebar-brand d-flex align-items-center justify-content-center" href="/">
         <div className="sidebar-brand-icon rotate-n-15">
           <i className="fas fa-laugh-wink"></i>
         </div>
         <div className="sidebar-brand-text mx-3">RiSolution</div>
-      </a>
+      </Link>
       <hr className="sidebar-divider my-0" />
       <li className="nav-item active">
-        <a className="nav-link" href="/">
+        <Link className="nav-link" href="/">
           <i className="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard</span></a>
+          <span>Dashboard</span></Link>
       </li>
       <hr className="sidebar-divider" />
 
       <li className="nav-item">
-        <a className="nav-link" href="">
+        <Link className="nav-link" href="">
           <i className="fa fa-thin fa-boxes-stacked"></i>
-          <span>Order</span></a>
+          <span>Order</span></Link>
       </li>
 
       <li className="nav-item">
-        <a className="nav-link" href="tables.html">
+        <Link className="nav-link" href="tables.html">
           <i className="fa fa-calendar-day"></i>
-          <span>Pickup</span></a>
+          <span>Pickup</span></Link>
       </li>
 
       <li className="nav-item">
-        <a className="nav-link" href="tables.html">
+        <Link className="nav-link" href="tables.html">
           <i className="fas fa-table"></i>
-          <span>Laporan</span></a>
+          <span>Laporan</span></Link>
       </li>
 
       <hr className="sidebar-divider d-none d-md-block" />
